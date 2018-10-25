@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +10,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/70/72/5257b6c12d89875.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #424242;
+  min-height: 100%;
+}
+
+form {
+  padding: 2vw;
+  margin-top: 10vh;
+}
+
+form button,
+form h5 {
+  margin: 3vw 0px;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-color: #ec407a;
+  box-shadow: none;
 }
 
 code {
